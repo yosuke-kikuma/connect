@@ -1,0 +1,59 @@
+.wrapper {
+  flex: 2.5;
+  height: 100vh;
+  padding: 20px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 4px 6px;
+  cursor: pointer;
+  box-shadow: 0px 5px 7px -1px #787878;
+  border-radius: 9px;
+}
+
+.icon {
+  font: 35x;
+}
+
+.item:hover {
+  box-shadow: none;
+  transform: translateX(4px);
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sidebarHr {
+  margin: 20px 0;
+}
+
+.friendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.friend {
+  display: flex;
+  margin: center;
+  margin-bottom: 15px;
+}
+
+.friendImg {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 50%;
+}
